@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="hr">
+
+  <head>
+    <meta charset="utf-8">
+	  <title>nice title for the tab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div id="all">
+      
+      <header>
+        <a href="#"><img src="photos/logo.png" alt="logo"></a>
+        
+        <nav>
+          <ul>
+            <li><a href="#">start</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <article>
+        <h1>MOST IMPORTANT TITLE</h1>
+        
+        <section id="bla">
+          <h3>title</h3>
+          <img src="img/colors.jpg" alt="author photography">
+          <p>
+            bla bla bla <strong>bla</strong> <em>bla</em> <span id="something">bla</span>
+          </p>
+        </section>
+      </article>
+      
+      <aside>
+        <h3>side navigation</h3>
+        <nav>
+           <ul>
+             <li><a href="#">books</a></li>
+             <li><a href="#">pictures</a></li>
+             <li><a href="#">pokemons</a></li>
+           </ul>
+        </nav>
+      </aside>
+      
+      <footer>
+		    Copyright &copy; 2018. Reflect Photography. All rights reserved.
+	    </footer>
+      
+    </div>
+  </body>
+
+</html>
