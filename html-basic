@@ -12,7 +12,7 @@
   <body>
     <div id="all">
       
-      <header>
+      <header id="top">
         <a href="#"><img src="photos/logo.png" alt="logo"></a>
         
         <nav>
@@ -50,8 +50,9 @@
       </aside>
       
       <footer>
-		    Copyright &copy; 2018. Reflect Photography. All rights reserved.
-	    </footer>
+	Copyright &copy; 2018. Reflect Photography. All rights reserved.
+	<a href="#vrh">back to top</a>
+      </footer>
       
     </div>
   </body>
