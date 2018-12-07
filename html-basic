@@ -33,7 +33,8 @@
           <h3>title</h3>
           <img src="img/colors.jpg" alt="author photography">
           <p>
-            bla bla bla <strong>bla</strong> <em>bla</em> <span id="something">bla</span>
+            bla bla bla <br>
+	    <strong>bla</strong> <em>bla</em> <span id="something">bla</span>
           </p>
         </section>
       </article>
@@ -50,7 +51,7 @@
       </aside>
       
       <footer>
-	Copyright &copy; 2018. Reflect Photography. All rights reserved.
+	Copyright &copy; 2018. Reflect Photography. All rights reserved. <br>
 	<a href="#vrh">back to top</a>
       </footer>
       
