@@ -1,1 +1,77 @@
+<!DOCTYPE html>
 
+<html lang='hr'>
+
+<head>
+	<meta charset='utf-8'>
+	<title>HTML table</title>
+</head>
+
+<body>
+
+	<table border='1' cellspacing='0' cellpadding='5'>
+		<tr>
+			<td> A1 </td>
+			<td> B1 </td>
+			<td> C1 </td>
+		</tr>
+		
+		<tr>
+			<td> A2 </td>
+			<td> B2 </td>
+			<td> C2 </td>
+		</tr>
+		
+		<tr>
+			<td> A3 </td>
+			<td> B3 </td>
+			<td> C3 </td>
+		</tr>
+	</table>
+	
+	<br>
+	
+	<table border='1' cellspacing='10' cellpadding='30' width='40%'>
+		<tr>
+			<td> 3 </td>
+			<td> 6 </td>
+			<td> 5 </td>
+		</tr>
+		
+		<tr>
+			<td> 4 </td>
+			<td> 2 </td>
+			<td> 0 </td>
+		</tr>
+		
+		<tr>
+			<td> 9 </td>
+			<td> 6 </td>
+			<td> 9 </td>
+		</tr>
+	</table>
+	
+	<br>
+	
+	<table border='1' cellspacing='0' cellpadding='10'> 
+		<tr>
+			<td rowspan='3'> A1 </td> <!-- rowspan za vertikalno provlačenje kroz redove -->
+			<td> B1 </td>
+			<td> C1 </td>
+			<td> D1 </td>
+		</tr>
+		
+		<tr>
+			<td colspan='3'> B2 C2 D2 </td> <!-- colspan za horizontalno provlačenje kroz stupce -->
+		</tr>
+		
+		<tr>
+			<td> B3 </td>
+			<td> C3 </td>
+			<td> D3 </td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>
