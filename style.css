@@ -1,0 +1,147 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 0.85em;
+}
+
+header, article, aside, footer {
+	padding: 10px 10px;
+}
+
+/*---------------------------------- HEADER ------------------------------------*/
+header{
+	background: orange;
+}
+
+header h1 {
+	margin: 0;
+}
+
+header ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	padding-right: 5px;
+	margin-right: 5px;
+}
+/*---------------------------------- ARTICLE ------------------------------------*/
+article{
+	/*background: blue;*/
+}
+
+/*---------------------------------- ASIDE ------------------------------------*/
+aside{
+	background: rgb(90, 181, 167);
+}
+
+aside img {
+	width: 100%;
+}
+
+/*---------------------------------- FOOTER ------------------------------------*/
+footer{
+	background: rgb(219, 96, 89);
+	margin-top: 10px;
+}
+
+
+/*--------------------------------- TABLETI ------------------------------------*/
+@media screen and (min-width: 600px) {
+	article, aside {
+		margin: 25px 10px 0 10px;
+		padding: 0 10px;
+	}
+	
+	article {
+		width: 66%;
+		float: right;
+	}
+	
+	article h2 {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	
+	aside {
+		width: 27%;
+		float: left;
+	}
+	
+	footer {
+		clear: both;
+	}
+}
+
+
+/*----------------------------------- PC ---------------------------------------*/
+@media screen and (min-width: 900px) {
+	#sve {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	
+	
+	
+	article, aside {
+		margin: 25px 0 0 0;
+	}
+	
+	article {
+		width: 69%;
+		float: right;
+	}
+	
+	article h2 {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	
+	aside {
+		width: 27%;
+		float: left;
+	}
+	
+	footer {
+		clear: both;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Kontinuirana provjera: HTML obrazac</title>
+</head>
+
+<body>
+
+	<h1>Pošaljite upit</h1>
+
+	<form name="upit" action="skripta.php" method="POST">
+		
+		<p>
+			Ime: <input type="text" name="ime">
+		</p>
+		
+		<p>
+			E-mail: <input type="email" name="mail" placeholder="upišite svoj e-mail" required>
+		</p>
+		
+		<p>
+			Vaša područja interesa:<br>
+			<label>Web dizajn 		<input type="checkbox" name="webdiz">	</label>
+			<label>Programiranje 	<input type="checkbox" name="prog">		</label>
+			<label>SEO 				<input type="checkbox" name="seo">		</label>
+		</p>
+
+		<p>
+			Poruka:<br>
+			<textarea cols="40" rows="20" name="poruka" placeholder="Upišite poruku"></textarea>
+		</p>
+		
+		<input type="submit" value="Pošalji">
+		
+	</form>
+
+</body>
+
+</html>
